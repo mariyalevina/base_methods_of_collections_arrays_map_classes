@@ -1,12 +1,13 @@
 package com.levina;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class List {
+public class List1 {
 
     public static void main(String... args) {
 
-        java.util.List<String> vegetables = new ArrayList<>();
+        List<String> vegetables = new ArrayList<>();
         vegetables.add("Авокадо");
         vegetables.add("Батат");
         vegetables.add("Брокколи");
@@ -36,7 +37,7 @@ public class List {
 
         System.out.println("Размер листа после добавления оъектов из листа vegetables " + fruitsAndVegetables.size());
 
-       fruitsAndVegetables.remove(1);
+        fruitsAndVegetables.remove(1);
         ((ArrayList<String>) fruitsAndVegetables).trimToSize();
         System.out.println("Размер листа после удаления 1 объекта " + fruitsAndVegetables.size());
 

@@ -2,10 +2,11 @@ package com.levina;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
-public class Map {
+public class Map1 {
     public static void main(String... args) {
-        java.util.Map<String, String> email = new HashMap<>();
+        Map<String, String> email = new HashMap<>();
         email.put("trifrigrebetti-9565@yopmail.com", "Круглов Сергей");
         email.put("tefrigreisedei-4845@yopmail.com", "Петров Петр");
         email.put("nennillellouquo-7990@yopmail.com", "Круглов Сергей");

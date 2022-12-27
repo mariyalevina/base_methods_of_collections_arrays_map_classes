@@ -2,14 +2,15 @@ package com.levina;
 
 
 import java.util.LinkedHashSet;
+import java.util.Set;
 import java.util.TreeSet;
 
 
-public class Set {
+public class Set1 {
 
     public static void main(String... args) {
 
-        java.util.Set<String> vegetables = new LinkedHashSet<>();
+        Set<String> vegetables = new LinkedHashSet<>();
         vegetables.add("Авокадо");
         vegetables.add("Батат");
         vegetables.add("Брокколи");
